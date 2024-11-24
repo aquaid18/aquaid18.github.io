@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Gallery</title>
+    <link rel="shortcut icon" href="images/AQUARIUS.png">
+    <link rel="stylesheet" href="css/Styles_LoadingOverlay.css">
+    <link rel="stylesheet" href="css/Styles_Main.css">
+    <link rel="stylesheet" href="css/Styles_Sidebar.css">
+    <link rel="stylesheet" href="css/Styles_UserName.css">
+    <link rel="stylesheet" href="css/Styles_Slider.css">
+    <link rel="stylesheet" href="css/Styles_Video.css">
+    <link rel="stylesheet" href="css/Styles_ViewMoreButton.css">
+    <link rel="stylesheet" href="css/Styles_Footer.css">
+    <link rel="stylesheet" href="css/Styles_Sidebar.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Loading Animation -->
+    <div id="loadingOverlay" class="loading-overlay">
+        <div class="spinner">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+    <!-- Sidebar -->
+    <div id="sidebar" class="sidebar">
+        <button id="closeSidebar" class="close-sidebar-btn">
+            <i class="fas fa-times"></i>
+        </button>
+        <ul class="menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+
+    <!-- Open Sidebar Button -->
+    <button id="openSidebar" class="sidebar-toggle">
+        <i class="fas fa-bars"></i>
+    </button>
+
+    <!-- Existing Content -->
+
+    <!-- Header -->
+    <header class="profile-header">
+        <div class="profile-picture-container">
+            <img src="profile/profile-picture.jpg" alt="Profile Picture" class="profile-picture">
+            <h1 class="username">Aqua.id-18</h1>
+            <p class="comics-style-text">Video Gallery</p>
+        </div>
+    </header>
+
+    <!-- Slider -->
+    <div class="slider-container">
+        <div class="slider" id="slider">
+            <div class="slide"><img src="sampling/image1.png" alt="Slide 1"></div>
+            <div class="slide"><img src="sampling/image2.png" alt="Slide 2"></div>
+            <div class="slide"><img src="sampling/image3.png" alt="Slide 3"></div>
+            <div class="slide"><img src="sampling/image4.png" alt="Slide 4"></div>
+            <div class="slide"><img src="sampling/image5.png" alt="Slide 5"></div>
+            <div class="slide"><img src="sampling/image6.png" alt="Slide 6"></div>
+            <div class="slide"><img src="sampling/image7.png" alt="Slide 7"></div>
+            <div class="slide"><img src="sampling/image8.png" alt="Slide 8"></div>
+        </div>
+        <button class="prev" id="prevBtn"><i class="fas fa-chevron-left"></i></button>
+        <button class="next" id="nextBtn"><i class="fas fa-chevron-right"></i></button>
+    </div>
+
+    <!-- Video Gallery -->
+    <main class="video-gallery" id="videoGallery">
+        <div class="video-card">
+            <video src="video/Video28.mp4" controls muted></video>
+        </div>
+            <video src="video/Video27.mp4" controls muted></video>
+        </div>
+            <video src="video/Video26.mp4" controls muted></video>
+        </div>
+            <video src="video/Video25.mp4" controls muted></video>
+        </div>
+            <video src="video/Video24.mp4" controls muted></video>
+        </div>
+            <video src="video/Video23.mp4" controls muted></video>
+        </div>
+            <video src="video/Video22.mp4" controls muted></video>
+        </div>
+            <video src="video/Video21.mp4" controls muted></video>
+        </div>
+            <video src="video/Video20.mp4" controls muted></video>
+        </div>
+            <video src="video/Video19.mp4" controls muted></video>
+        </div>
+            <video src="video/Video18.mp4" controls muted></video>
+        </div>
+            <video src="video/Video17.mp4" controls muted></video>
+        </div>
+            <video src="video/Video16.mp4" controls muted></video>
+        </div>
+            <video src="video/Video15.mp4" controls muted></video>
+        </div>
+            <video src="video/Video14.mp4" controls muted></video>
+        </div>
+            <video src="video/Video13.mp4" controls muted></video>
+        </div>
+            <video src="video/Video12.mp4" controls muted></video>
+        </div>
+            <video src="video/Video11.mp4" controls muted></video>
+        </div>
+            <video src="video/Video10.mp4" controls muted></video>
+        </div>
+            <video src="video/Video9.mp4" controls muted></video>
+        </div>
+            <video src="video/Video8.mp4" controls muted></video>
+        </div>
+            <video src="video/Video7.mp4" controls muted></video>
+        </div>
+            <video src="video/Video6.mp4" controls muted></video>
+        </div>
+            <video src="video/Video5.mp4" controls muted></video>
+        </div>
+            <video src="video/Video4.mp4" controls muted></video>
+        </div>
+            <video src="video/Video3.mp4" controls muted></video>
+        </div>
+            <video src="video/Video2.mp4" controls muted></video>
+        </div>
+            <video src="video/Video1.mp4" controls muted></video>
+        </div>
+        <!-- Add more video cards here -->
+    </main>
+
+    <!-- View More Button -->
+    <div class="view-more-container">
+        <button id="viewMoreButton">View More Videos</button>
+    </div>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="social-links">
+            <a href="https://tiktok.com" target="_blank"><i class="fab fa-tiktok"></i></a>
+            <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://youtube.com" target="_blank"><i class="fab fa-youtube"></i></a>
+        </div>
+        <p>&copy; 2024 Aquaid18</p>
+    </footer>
+    <script src="js/Sidebar.js"></script>
+    <script src="js/Slider.js"></script>
+    <script src="js/Video.js"></script>
+    <script src="js/Toggle_button.js"></script>
+    <script src="js/DisablingRightClick.js"></script>
+    <script src="js/DisableDeveloperTools.js"></script>
+    <script src="js/CopyProtection.js"></script>
+    <script src="js/LoadingOverlay.js"></script>
+</body>
+</html>

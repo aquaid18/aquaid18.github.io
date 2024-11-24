@@ -1,0 +1,79 @@
+/* Sidebar Fullscreen */
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: -100%; /* Initially hidden */
+    width: 100%; /* Fullscreen width */
+    height: 100%; /* Fullscreen height */
+    background-color: rgba(18, 18, 18, 0.95); /* Dark overlay */
+    z-index: 1000; /* Above other content */
+    transition: left 0.3s ease-in-out; /* Smooth transition */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Sidebar Active (visible) */
+.sidebar.active {
+    left: 0; /* Slide in from the left */
+}
+
+/* Close Button */
+.close-sidebar-btn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+/* Sidebar Menu */
+.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.menu li {
+    margin: 15px 0;
+}
+
+.menu a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: white;
+    transition: color 0.3s ease;
+}
+
+.menu a:hover {
+    color: #ff005a;
+}
+
+/* Open Sidebar Button */
+.sidebar-toggle {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+    z-index: 1100; /* Above everything except sidebar */
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+    .menu a {
+        font-size: 1.2rem;
+    }
+
+    .close-sidebar-btn {
+        font-size: 1.2rem;
+    }
+}

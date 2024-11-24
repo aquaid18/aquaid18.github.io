@@ -1,0 +1,27 @@
+/* Styled Username */
+.username {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    font-size: 3em;
+    color: #008bff;
+    text-shadow: 
+        -2px -2px 0 #ffffff, 
+        2px 2px 0 #0045a6, 
+        4px 4px 10px rgba(0, 0, 0, 0.5);
+    margin: 0;
+}
+
+/* Comics Style Text */
+.comics-style-text {
+    font-family: 'Impact', 'Arial Black', sans-serif; /* Font tebal */
+    font-size: 1.5em; /* Ukuran teks */
+    color: #ff337a; /* Warna utama merah */
+    text-transform: uppercase; /* Huruf besar */
+    text-shadow: 
+        -3px -3px 0 #ffffff, /* Garis luar putih (atas-kiri) */
+        3px 3px 0 #ffffff,   /* Garis luar putih (bawah-kanan) */
+        2px 2px 0 #000000,   /* Garis luar hitam */
+        1px 1px 8px rgba(0, 0, 0, 0.5); /* Efek glow halus */
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}

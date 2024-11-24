@@ -1,0 +1,21 @@
+/* Video Gallery */
+.video-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 10px;
+    padding: 20px;
+}
+
+.video-card {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    background-color: #1e1e1e;
+    padding: 10px;
+}
+
+video {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}

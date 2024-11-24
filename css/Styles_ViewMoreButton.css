@@ -1,0 +1,18 @@
+/* View More Button */
+.view-more-container {
+    margin: 20px 0;
+}
+
+#viewMoreButton {
+    padding: 10px 20px;
+    background-color: #ff005a;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+#viewMoreButton:hover {
+    background-color: #ff337a;
+}
